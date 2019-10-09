@@ -24,9 +24,9 @@ public class Mesterember {
         List<MesteremberA> mesteremberLista = new ArrayList<>();
         
         mesteremberLista.add(new Burkolo(Helyszin.Belso, "Tapéta Lajos", 60000));
-        mesteremberLista.add(new VizvezetekSzerelo(3, "Megszer Elek", 12));
+        mesteremberLista.add(new VizvezetekSzerelo(3, "Megszer Elek", 12000));
         mesteremberLista.add(new Burkolo(Helyszin.Kulso, "Vakolat Péter",5000));
-        mesteremberLista.add(new VizvezetekSzerelo(5, "Víz Elek", 15));
+        mesteremberLista.add(new VizvezetekSzerelo(5, "Víz Elek", 15000));
         mesteremberLista.add(new Burkolo(Helyszin.Kulso, "Eresz János", 30000));
         
         for(int i = 0; i < mesteremberLista.size(); i++){
